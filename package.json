@@ -1,0 +1,24 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --browser edge --e2e"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^5.12.0",
+    "cypress": "^10.3.0",
+    
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^11.4.0"
+  },
+
+  "@badeball/cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
